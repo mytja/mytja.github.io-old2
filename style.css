@@ -1,0 +1,12 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    background-color: #1F1B24;
+    color: white;
+    font-family: Arial;
+}
+
+.center {
+    max-width: max-content;
+    margin: auto;
+}
