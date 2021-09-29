@@ -1,10 +1,12 @@
 body {
-    max-width: max-content;
-    margin: auto;
-    background-color: #1F1B24;
+    background-color: #121212;
     color: white;
     font-family: Arial;
+    margin:50px 0; 
+    padding:0;
+    text-align:center;
 }
+
 
 .center {
     max-width: max-content;
