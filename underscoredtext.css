@@ -1,25 +1,19 @@
-.underline-css {
-    display: inline;
-    position: relative;
-    overflow: hidden;
-  }
-  .underline-css:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    width: 0;
-    bottom: -5px;
-    background: #FFF;
-    height: 4px;
-    transition-property: width;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
-  }
-  .underline-css:hover:after,
-  .underline-css:focus:after,
-  .underline-css:active:after {
-    left: 0;
-    right: auto;
-    width: 100%;
-  }
+.ul-hover {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ul-hover li{
+  float: left;
+  margin: 0 5px;
+}
+.ul-hover li a{
+  text-decoration:none;
+  color: white;
+}
+.ul-hover li:hover{
+  border-bottom: 2px solid orange;
+}
+.ul-hover li .underscored{
+  border-bottom: 2px solid orange;
+}
