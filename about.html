@@ -14,10 +14,17 @@
     <title id="my-personal-website">My personal website</title>
     <nav>
         <div class="nav-wrapper black ul-hover">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="javascript:localizeSLsi_about();" class="underline-css" id="slovenščina">slovenščina</a></li>
+            </ul>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="javascript:localizeENus_about();" class="underline-css" id="english">English</a></li>
+            </ul>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html" class="underline-css" id="home">Home</a></li>
                 <li><a href="about.html" class="underline-css underscored" id="about">About</a></li>
-                <li><a href="langs.html" class="underline-css" id="programming_langs_tools_i_use">Programming languages, tools I use and my projects</a></li>
+                <li><a href="langs.html" class="underline-css" id="programming_langs_tools_i_use">Programming languages and tools I use</a></li>
+                <li><a href="projects.html" class="underline-css" id="my_projects">My projects</a></li>
             </ul>
         </div>
     </nav>
@@ -32,4 +39,5 @@
     <p id="bio"></p>
     <p><i class="fa fa-location-dot" aria-hidden="true"></i> <span id="location"></span></p>
 </body>
+<script src="localization.js"></script>
 </html>

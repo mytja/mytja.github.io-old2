@@ -10,10 +10,17 @@
     <title id="my-personal-website">My personal website</title>
     <nav>
         <div class="nav-wrapper black ul-hover">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="javascript:localizeSLsi_langs();" class="underline-css" id="slovenščina">slovenščina</a></li>
+            </ul>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="javascript:localizeENus_langs();" class="underline-css" id="english">English</a></li>
+            </ul>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html" class="underline-css" id="home">Home</a></li>
-            <li><a href="about.html" class="underline-css" id="about">About</a></li>
-            <li><a href="langs.html" class="underline-css underscored" id="programming_langs_tools_i_use">Programming languages, tools I use and my projects</a></li>
+                <li><a href="index.html" class="underline-css" id="home">Home</a></li>
+                <li><a href="about.html" class="underline-css" id="about">About</a></li>
+                <li><a href="langs.html" class="underline-css underscored" id="programming_langs_tools_i_use">Programming languages and tools I use</a></li>
+                <li><a href="projects.html" class="underline-css" id="my_projects">My projects</a></li>
             </ul>
         </div>
     </nav>
@@ -113,27 +120,12 @@
             <div class="col s6">
                 <div class="card-content white-text">
                     <span class="card-title">Arduino C</span>
-                    <p>While I am definetly not a pro, I know basics of Arduino C. I can create basic Arduino code, with some labour even advanced ones.</p>
+                    <p id="title_arduc">While I am definetly not a pro, I know basics of Arduino C. I can create basic Arduino code, with some labour even advanced ones.</p>
                 </div>
             </div>
         </div>
     </div>
-    <h1>My projects:</h1>
-    <div class="col s12 m12">
-        <div class="card grey darken-4">
-        <div class="row">
-            <div class="col s3">
-                <img src="https://raw.githubusercontent.com/MeetPlan/icon/main/icon/web_hi_res_512.png" height="200px">
-            </div>
-            <div class="col s6">
-                <div class="card-content white-text">
-                    <a href="https://github.com/MeetPlan/"><span class="card-title">MeetPlan</span></a>
-                    <p>MeetPlan is a powerful meetings organizer. It was specifically designed with schools in mind. It is based on Flask, Python</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <h1>Used IDEs:</h1>
+    <h1 id="used-ides">Used IDEs:</h1>
     <div class="col s12 m12">
         <div class="card grey darken-4">
         <div class="row">
@@ -143,7 +135,7 @@
             <div class="col s6">
                 <div class="card-content white-text">
                     <span class="card-title">Visual Studio Code</span>
-                    <p>I use it for Dart/Flutter.</p>
+                    <p id="title_vscode">I use it for Dart/Flutter.</p>
                 </div>
             </div>
         </div>
@@ -156,8 +148,8 @@
             </div>
             <div class="col s6">
                 <div class="card-content white-text">
-                    <span class="card-title">JetBrains' IDEs</span>
-                    <p>I use PyCharm for Python, GoLand for Go, WebStorm for web development.</p>
+                    <span class="card-title" id="title_jb_top">JetBrains' IDEs</span>
+                    <p id="title_jb">I use PyCharm for Python, GoLand for Go, WebStorm for web development.</p>
                 </div>
             </div>
         </div>
@@ -171,7 +163,7 @@
             <div class="col s6">
                 <div class="card-content white-text">
                     <span class="card-title">Android Studio</span>
-                    <p>I use it for Native Android development.</p>
+                    <p id="title_andstu">I use it for Native Android development.</p>
                 </div>
             </div>
         </div>
@@ -182,4 +174,5 @@
         </a>
     </div>
 </body>
+<script src="localization.js"></script>
 </html>
