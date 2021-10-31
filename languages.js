@@ -52,6 +52,13 @@ function localizeSLsi_langs() {
     document.getElementById("title_jb").innerHTML = "Uporabljam PyCharm za Python, GoLand za Go, WebStorm pa za razvoj spletnih aplikacij.";
 
     document.getElementById("title_andstu").innerHTML = "Android Studio uporabljam za razvoj aplikacij za Android.";
+
+    document.getElementById("title_linux").innerHTML = "Rad imam Linux in Linux 'networking'. Poznam kar nekaj Linux ukazov. Rad imam vgrajeni Linux, kot je na primer Raspberry Pi";
+    document.getElementById("title_linux2").innerHTML = "Dejstvo: Moja najljubša Linux distribucija je Ubuntu, ampak samo zato ker sem se ga navadil.";
+    document.getElementById("title_linux3").innerHTML = "Dejstvo #2: Ko sem izbiral novo Linux distribucijo je bil največji problem 'package manager' - ker sem navajen na Ubuntu, nočem nič drugega kot APT.";
+
+    document.getElementById("title_docker").innerHTML = "Docker se uporablja za kontejniziranje aplikacij za najbolj preprost 'deployment' na strežnike.";
+    document.getElementById("title_docker2").innerHTML = "Obožujem Docker in Dockeriziranje vseh živih aplikacij, še posebej Go aplikacij.";
 }
 
 function localizeSLsi_projects() {
@@ -125,6 +132,13 @@ function localizeENus_langs() {
     document.getElementById("title_jb").innerHTML = "I use PyCharm for Python, GoLand for Go, WebStorm for web development.";
 
     document.getElementById("title_andstu").innerHTML = "I use it for Native Android development.";
+
+    document.getElementById("title_linux").innerHTML = "I love Linux and Linux networking. I know many Linux commands. I like embedded Linux, like Raspberry Pi.";
+    document.getElementById("title_linux2").innerHTML = "Fun fact: My favorite Linux distro is Ubuntu only because I got used to it.";
+    document.getElementById("title_linux3").innerHTML = "Fun fact #2: One time I was choosing a new Linux distro, and my biggest concern was package manager - I didn't want anything else than APT.";
+
+    document.getElementById("title_docker").innerHTML = "Docker is used for containerizing apps for simplest possible deployment.";
+    document.getElementById("title_docker2").innerHTML = "I love Docker and Dockerizing all kinds of apps, especially Go apps.";
 }
 
 function localizeENus_projects() {
