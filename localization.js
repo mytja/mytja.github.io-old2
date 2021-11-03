@@ -29,6 +29,10 @@ function localize() {
         try {
             localizeENus_projects();
         } catch {}
+    } else {
+        console.log("Setting localization")
+        localStorage.setItem("localization", "ENus");
+        localize();
     }
 }
 

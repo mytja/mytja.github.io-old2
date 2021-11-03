@@ -10,7 +10,7 @@ function localizeSLsi() {
 
 function localizeSLsi_index() {
     localizeSLsi();
-    document.getElementById("this-page-helps").innerHTML = "Ta spletna stran ti pomaga, da mene in moje projekte bolje poznaš.";
+    document.getElementById("this-page-helps").innerHTML = "Ta spletna stran ti pomaga, da boš mene in moje projekte bolje poznal.";
     document.getElementById("hi_there").innerHTML = "Pozdravljen 👋";
     document.getElementById("my-personal-website2").innerHTML = "Moja spletna stran";
 }
@@ -29,11 +29,11 @@ function localizeSLsi_langs() {
     document.getElementById("i_know_many_langs").innerHTML = "Poznam veliko programskih jezikov in uporabljam razna orodja za razvoj. Tukaj je nekaj:";
     document.getElementById("used-ides").innerHTML = "Uporabljena razvojna okolja:"
     
-    document.getElementById("i_know_py").innerHTML = "Poznam Python kar dobro. Sem zainteresiran v spletne aplikacije in IoT. Razvil sem tudi nekaj knjižic.";
+    document.getElementById("i_know_py").innerHTML = "Python poznam kar dobro. Sem zainteresiran v spletne aplikacije in IoT. Razvil sem tudi nekaj knjižic.";
     document.getElementById("i_know_many_tools_py").innerHTML = "Poznam veliko orodij v Pythonu, med drugim tudi Flask in FastAPI";
     
-    document.getElementById("title_go").innerHTML = "Še vedno se učim Go, a ga že kar dobro poznam. Znam delati Go backende";
-    document.getElementById("title_go2").innerHTML = "Go je 'compilan' jezik, zato je zelo hiter. Go je bil zgrajen za strežnike.";
+    document.getElementById("title_go").innerHTML = "Še vedno se učim Go, a ga že kar dobro poznam. Znam delati Go backende.";
+    document.getElementById("title_go2").innerHTML = "Go je jezik, ki se zgradi v izvršljivo datoteko, zato je zelo hiter. Go je bil zgrajen za strežnike prav zaradi svoje hitrosti in svojega preprostega klicanja v C.";
 
     document.getElementById("title_fl").innerHTML = "Flutter se uporablja za razvoj aplikacij, čeprav nisem tako zainteresiran vanj, kot v Python or Go, ga poznam.";
     document.getElementById("title_fl2").innerHTML = "Lahko tudi pišem v Dartu.";
